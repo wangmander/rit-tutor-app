@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/rit-tutor-app/sw.js', { scope: '/rit-tutor-app/' })})}
